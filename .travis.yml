@@ -21,5 +21,5 @@ deploy:
     skip_cleanup: true
     on:
       branch:
-        - staging
+        - master
     script: bash ./scripts/deploy_version.sh release
