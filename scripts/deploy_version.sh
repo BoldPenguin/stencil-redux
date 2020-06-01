@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Running semantic-release..."
 npx semantic-release
 
 if [ $1 = "release" ]
