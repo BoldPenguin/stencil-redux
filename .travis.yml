@@ -1,0 +1,25 @@
+dist: bionic
+language: node_js
+node_js:
+  - 12
+before_install:
+  - echo "//npm.pkg.github.com/:_authToken=\${NPM_TOKEN}" >> .npmrc
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    on:
+      branch:
+        - alpha
+        - beta
+    script: bash ./scripts/deploy_version.sh prerelease
+  - provider: script
+    skip_cleanup: true
+    on:
+      branch:
+        - master
+    script: bash ./scripts/deploy_version.sh release
