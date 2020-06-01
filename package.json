@@ -1,6 +1,6 @@
 {
-  "name": "@stencil/redux",
-  "version": "0.1.2",
+  "name": "@boldpenguin/stencil-redux",
+  "version": "0.1.0",
   "description": "Stencil Redux - A simple redux-connector for Stencil-built web components",
   "main": "dist/index.js",
   "module": "dist/esm/es5/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-redux.git"
+    "url": "git+https://github.com/boldpenguin/stencil-redux.git"
   },
   "devDependencies": {
     "@stencil/core": "^0.18.0",
@@ -43,7 +43,7 @@
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil-redux"
+    "url": "https://github.com/boldpenguin/stencil-redux"
   },
-  "homepage": "https://github.com/ionic-team/stencil-redux"
+  "homepage": "https://github.com/boldpenguin/stencil-redux"
 }
