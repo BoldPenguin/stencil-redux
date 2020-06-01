@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boldpenguin/stencil-redux.git"
+    "url": "git+https://github.com/BoldPenguin/stencil-redux.git"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
@@ -48,7 +48,7 @@
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/boldpenguin/stencil-redux"
+    "url": "https://github.com/BoldPenguin/stencil-redux"
   },
-  "homepage": "https://github.com/boldpenguin/stencil-redux"
+  "homepage": "https://github.com/BoldPenguin/stencil-redux"
 }
