@@ -1,6 +1,6 @@
 {
   "name": "@boldpenguin/stencil-redux",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Stencil Redux - A simple redux-connector for Stencil-built web components",
   "main": "dist/index.js",
   "module": "dist/esm/es5/index.js",
