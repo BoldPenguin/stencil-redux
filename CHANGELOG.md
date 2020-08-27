@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/BoldPenguin/stencil-redux/compare/v0.2.1...v0.2.2) (2020-08-27)
+
+
+### Bug Fixes
+
+* BP-7826 | Deprecate ([#7](https://github.com/BoldPenguin/stencil-redux/issues/7)) ([5fc55e0](https://github.com/BoldPenguin/stencil-redux/commit/5fc55e023f2d4268c85e1c3c61437a7c722477a2))
+
 ## [0.2.1](https://github.com/BoldPenguin/stencil-redux/compare/v0.2.0...v0.2.1) (2020-06-01)
 
 
